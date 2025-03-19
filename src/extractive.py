@@ -15,7 +15,7 @@ def extractive_summary(text: str, sentences_count: int = 5) -> Optional[str]:
         sentences_count (int): Number of sentences to include in the summary.
 
     Returns:
-        str: Extracted key sentences as summary.
+        str: Extracted key sentences as summary
     """
     try:
         parser = PlaintextParser.from_string(text, Tokenizer("english"))
