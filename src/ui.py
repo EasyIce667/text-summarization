@@ -14,7 +14,7 @@ def process_pdf(pdf_file, summary_length):
         summary_length: Selected summary length option.
 
     Returns:
-        str: Final summary.
+        str: Final summary
     """
     try:
         if pdf_file is None:
