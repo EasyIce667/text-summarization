@@ -22,7 +22,7 @@ def abstractive_summary(text: str, max_length: int = 150, min_length: int = 40) 
     Args:
         text (str): Full text to summarize.
         max_length (int): Maximum length of the summary.
-        min_length (int): Minimum length of the summary.
+        min_length (int): Minimum length of the summary
 
     Returns:
         str: The abstractive summary.
