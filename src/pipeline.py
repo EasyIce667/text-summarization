@@ -52,7 +52,6 @@ def summarize_research_paper(pdf_path: str, extractive_sentences: int = 10,
 
 
 if __name__ == "__main__":
-    # Test run
     test_pdf_path = "../data/NIPS-2017-attention-is-all-you-need-Paper.pdf"  # Replace with real file path
     final_summary = summarize_research_paper(
         test_pdf_path,
