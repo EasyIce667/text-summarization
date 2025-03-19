@@ -17,7 +17,7 @@ def extract_text_from_pdf(pdf_path: str) -> Optional[str]:
         pdf_path (str): The path to the PDF file.
 
     Returns:
-        str: The extracted text from the PDF, or None if failed.
+        str: The extracted text from the PDF, or None if failed
     """
     try:
         reader = PdfReader(pdf_path)
