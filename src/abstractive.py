@@ -12,7 +12,7 @@ from typing import Optional
 # google/pegasus-xsum
 
 # Load model globally to avoid reloading for each call (slow otherwise)
-summarizer_pipeline = pipeline("summarization", model="t5-small")
+summarizer_pipeline = pipeline("summarization", model="google/pegasus-xsum")
 
 
 def abstractive_summary(text: str, max_length: int = 150, min_length: int = 40) -> Optional[str]:
