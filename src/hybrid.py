@@ -19,7 +19,7 @@ def hybrid_summary(text: str, extractive_sentences: int = 10,
         min_length (int): Min length of final abstractive summary.
 
     Returns:
-        str: Final combined summary or None if failed.
+        str: Final combined summary or None if failed
     """
     try:
         print("\n[Step 1] Running Extractive Summarization...")
